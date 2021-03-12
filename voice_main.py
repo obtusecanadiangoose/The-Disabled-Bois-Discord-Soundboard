@@ -28,126 +28,126 @@ class Music(commands.Cog):
     async def any8(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("8yo.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/8yo.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
 
     @commands.command()
     async def hehe(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("ahehehe.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/ahehehe.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
 
     @commands.command()
     async def areu(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("areuabababa.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/areuabababa.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
 
     @commands.command()
     async def bomb(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("BOMB YOU RETARD.wav"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/BOMB YOU RETARD.wav"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
 
     @commands.command()
     async def calmdown(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("canhecalmdown.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/canhecalmdown.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def plant(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("canuplant.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/canuplant.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def eatshit(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("eatshit.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/eatshit.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def how(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("hooow.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/hooow.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def five(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("howmanyis5.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/howmanyis5.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def huhu(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("huhuhuhuwhat.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/huhuhuhuwhat.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def v1(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("ifulosethis1v1.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/ifulosethis1v1.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def howtf(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("ohohohohowhatthefuck.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/ohohohohowhatthefuck.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def scream(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("screamofanguish.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/screamofanguish.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def shoothim(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("SHOOT HIM.wav"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/SHOOT HIM.wav"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def shesdead(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("siebrenshesdead.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/siebrenshesdead.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def turnedon(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("turnedon.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/turnedon.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def insane(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("uractuallyinsane.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/uractuallyinsane.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
  
     @commands.command()
     async def surprise(self, ctx):
         """Plays a file from the local filesystem"""
 
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("wahahaha.mp3"))
+        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("clips/wahahaha.mp3"))
         ctx.voice_client.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
       
     @commands.command()
